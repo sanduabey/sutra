@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+body{
+    background: #eeeeee;
+}
+.tm-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.tm-header{
+    background: white;
+}
+
+.tm-header::after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: none;
+}
+
+.tm-logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.tm-nav ul li{
+    display: inline-block;
+}
+.tm-nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #303030;
+    line-height: 60px;
+}
+
+.tm-nav ul li a:hover{
+    color: blue;
+}
+.tm-nav{
+    float: right;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+
+}
+
+ul, ol{
+    margin-bottom: 20px;
+}
+
+ul li{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.tm-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 70%;
+    float: left;
+}
+
+.tm-article{
+    background: #ffff;
+    padding: 30px;
+}
+
+.tm-footer{
+    background: white;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+
+.tm-sidebar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 25%;
+    float: right;
+    width: 25%;
+}
+
+.tm-sidebar div{
+    background: white;
+}
